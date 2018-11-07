@@ -24,7 +24,7 @@ p  {
 }
 
 body { 
-	background:url(https://gitlab.com/Alohomora/img/ahoy.jpg); /* Путь к фоновому изображению */
+	background:url(https://aquamenty.github.io/img/ahoy.jpg); /* Путь к фоновому изображению */
 	background-repeat: repeat-x+10, repeat-y+10; /* Заполняем фон веб-страницы */
 	position: relative;
 	margin-top: 5%;
@@ -34,7 +34,7 @@ body {
 }
 
 nav {
-	background:url(https://gitlab.com/Alohomora/img/fon_prozr86.png);
+	background:url(https://aquamenty.github.io/img/fon_prozr86.png);
 	height: 20px;
 }
 
@@ -70,7 +70,7 @@ article figure {
 }
 
 section {
-	background:url(https://gitlab.com/Alohomora/img/fon_prozr86.png);
+	background:url(https://aquamenty.github.io/img/fon_prozr86.png);
 	background-repeat: repeat-x+1000, repeat-y+1000;
 	border: 1px solid #ccc;
 	padding-right: 20px;
@@ -78,7 +78,7 @@ section {
 }
 
 aside {
-	background:url(https://gitlab.com/Alohomora/img/fon_prozr86.png);
+	background:url(https://aquamenty.github.io/img/fon_prozr86.png);
 	background-repeat: repeat-x+1000, repeat-y+1000;
 	border: 1px solid #ccc;
 	top: 16px;
