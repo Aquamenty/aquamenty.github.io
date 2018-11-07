@@ -1,0 +1,141 @@
+h1 /*Определение типа заголовка */{     	
+	font-family: Verdana; /* Гарнитура шрифта */ 
+	font-size: 120%; /* Размер текста */ 
+	line-height: 1,15; /* Межстрочный интервал */ 
+}
+
+h2 /*Определение типа заголовка */{     	
+	font-family: Verdana; /* Гарнитура шрифта */ 
+	font-size: 100%; /* Размер текста */ 
+	line-height: 1,15; /* Межстрочный интервал */
+	font-weight: 500; 	
+	}
+
+h3 /*Определение типа заголовка */{ 
+	font-family: Verdana; /* Гарнитура шрифта */ 
+	font-size: 70%; /* Размер текста */ 
+	line-height: 1,15 /* Межстрочный интервал */	
+}
+
+p  { 
+	font-family: Verdana; /* Гарнитура шрифта */
+	text-align: justify; /* Выравнивание по ширине */
+    text-indent: 20px; /* Отступ первой сторки */
+}
+
+body { 
+	background:url(https://gitlab.com/Alohomora/img/ahoy.jpg); /* Путь к фоновому изображению */
+	background-repeat: repeat-x+10, repeat-y+10; /* Заполняем фон веб-страницы */
+	position: relative;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 25%; /* Отступ слева */
+	margin-right: 25%; /* Отступ справа */
+}
+
+nav {
+	background:url(https://gitlab.com/Alohomora/img/fon_prozr86.png);
+	height: 20px;
+}
+
+nav ul li {
+	font-family: Georgia; /* Гарнитура шрифта */
+	float: right;
+	margin-right: 10px; /* Отступ справа */
+}
+
+li {
+	font-family: Georgia; /* Гарнитура шрифта */
+	display: inline;
+	vertical-align: middle;
+}
+
+
+main {
+	margin: 0 auto;
+  	display: block;
+}
+
+article {
+	float: left; /* Обтекание слева */
+	margin-bottom: 30px; /* Отступ снизу */
+	width: 100%;
+	overflow: auto;
+}
+
+article figure {
+ 	margin: 1em;
+	text-align: left;
+	float: none;
+}
+
+section {
+	background:url(https://gitlab.com/Alohomora/img/fon_prozr86.png);
+	background-repeat: repeat-x+1000, repeat-y+1000;
+	border: 1px solid #ccc;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+aside {
+	background:url(https://gitlab.com/Alohomora/img/fon_prozr86.png);
+	background-repeat: repeat-x+1000, repeat-y+1000;
+	border: 1px solid #ccc;
+	top: 16px;
+	float: right; /* Обтекание справа */
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 25%;
+	display: block;
+	overflow: auto; /* отображением содержания блочного элемента */
+	position:relative;
+}
+
+menu {
+	padding: 0;
+}
+
+a:link, a:active {
+	font-family: Verdana;
+	color: #000000;
+	font-weight: 600;
+	font-size:80%;
+}
+a:visited {
+	font-family: Verdana;
+	color: #f76063;
+	font-weight: 600;
+	font-size:80%;
+}
+a:hover {
+	font-family: Verdana;
+	color: #000000;
+	font-weight: 600;
+	font-size:80%;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+	display: block
+}
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+   }
+.rightimg  {
+    float: right; /* Выравнивание по правому краю  */ 
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+   }
+
+   footer {
+	clear: both;
+	color: #000;
+	margin-left: 25%;
+	margin-right: 25%; 
+}
+
+footer a {
+	color: #000;
+}
