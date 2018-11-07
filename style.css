@@ -20,11 +20,11 @@ h3 /*Определение типа заголовка */{
 p  { 
 	font-family: Verdana; /* Гарнитура шрифта */
 	text-align: justify; /* Выравнивание по ширине */
-    text-indent: 20px; /* Отступ первой сторки */
+    	text-indent: 20px; /* Отступ первой сторки */
 }
 
 body { 
-	background:url("/ahoy.jpg"); /* Путь к фоновому изображению */
+	background:url('https://aquamenty.github.io/ahoy.jpg'); /* Путь к фоновому изображению */
 	background-repeat: repeat-x+10, repeat-y+10; /* Заполняем фон веб-страницы */
 	position: relative;
 	margin-top: 5%;
@@ -121,13 +121,13 @@ a:hover {
 }
 
 .leftimg {
-    float:left; /* Выравнивание по левому краю */
-    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
-   }
+	float:left; /* Выравнивание по левому краю */
+	margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+}
 .rightimg  {
-    float: right; /* Выравнивание по правому краю  */ 
-    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
-   }
+	float: right; /* Выравнивание по правому краю  */ 
+	margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+}
 
    footer {
 	clear: both;
