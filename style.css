@@ -24,7 +24,7 @@ p  {
 }
 
 body { 
-	background:url(/img/ahoy.jpg); /* Путь к фоновому изображению */
+	background:url(../img/ahoy.jpg); /* Путь к фоновому изображению */
 	background-repeat: repeat-x+10, repeat-y+10; /* Заполняем фон веб-страницы */
 	position: relative;
 	margin-top: 5%;
