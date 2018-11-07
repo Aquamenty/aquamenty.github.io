@@ -20,7 +20,7 @@ h3 /*Определение типа заголовка */{
 p  { 
 	font-family: Verdana; /* Гарнитура шрифта */
 	text-align: justify; /* Выравнивание по ширине */
-    text-indent: 20px; /* Отступ первой сторки */
+    	text-indent: 20px; /* Отступ первой сторки */
 }
 
 body { 
@@ -72,7 +72,7 @@ article figure {
 
 section {
 	background:url(https://aquamenty.github.io/img/fon_prozr86.png);
-	background-repeat: repeat-x+1000, repeat-y+1000;
+	background-repeat: repeat;
 	border-radius: 10px;
 	padding-right: 20px;
 	padding-left: 20px;
